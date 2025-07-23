@@ -1,0 +1,12 @@
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/dto/SignupRequest.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/dto/AuthResponse.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/service/AuthService.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/repository/UserRepository.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/controller/AuthController.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/security/SecurityConfig.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/security/JwtProvider.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/AuthServiceApplication.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/dto/LoginRequest.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/service/CustomUserDetailsService.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/domain/User.java
+/Users/don/Dispatch-system/Dispatch-system/auth-service/src/main/java/com/praveen/rideshare/auth/security/JwtAuthenticationFilter.java
