@@ -1,5 +1,5 @@
 server:
-  port: 8084  # for driver, 8083 for rider, 8084 for dispatch, 8085 for ws (pick unique)
+  port: 8084
 
 spring:
   datasource:

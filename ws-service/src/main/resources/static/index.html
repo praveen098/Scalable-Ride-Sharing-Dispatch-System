@@ -1,0 +1,15 @@
+<!doctype html>
+<html><body>
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+<script>
+const token = localStorage.getItem('jwt') || prompt('Paste JWT'); localStorage.setItem('jwt', token);
+const sock = new SockJS('/ws');
+const client = Stomp.over(sock);
+client.connect({'Authorization':'Bearer '+token}, frame => {
+  console.log('connected', frame);
+  client.subscribe('/topic/echo', msg => console.log('echo:', msg.body));
+  client.send('/app/echo', {}, JSON.stringify({text:'hello ws'}));
+}, err => console.error('connect error', err));
+</script>
+</body></html>
